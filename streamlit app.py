@@ -4,7 +4,8 @@ import numpy as np
 from PIL import Image, ImageOps
 
 # Load the trained model
-model = tf.keras.models.load_model("mnist_cnn_model.h5")
+model = tf.keras.models.load_model("mnist_tf2_10_fixed_model.h5")
+
 
 st.title("MNIST Digit Classifier 🧠")
 st.write("Upload a 28x28 pixel image of a handwritten digit.")
